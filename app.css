@@ -4,39 +4,47 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(236, 226, 217);
+    background-color: #f1efef;
 }
+.wrapper{
+    background-color: #ffffff;
+    padding: 10px 5px;
+    margin: 50px 100px;
+    box-shadow: -1px -1px 15px #e4e4e4;
+    border-radius: 5px;   
+}
+
 div.wrapper h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sf pro text regular;
     margin: 2rem;
-    color: rgb(43, 42, 41);
+    color: #666565;
     text-align: center;
     text-transform: uppercase;
 }
 form{
-    background:rgb(247, 247, 250);
-    padding-top: 40px;
     text-align: center;
-    justify-content: center;
-    margin: 20px;
-    padding-bottom: 30px;
+    margin: 5px;
 }
 div h4{
-    font-family: sans-serif;
-    color:rgb(43, 42, 41);
+    font-family: sf pro text regular;
+    color:#666565;
     text-transform: capitalize;
-    text-align: center;
+    margin: 1rem;
+    padding-left: 17.8rem;
+    text-align: left;
 }
 input {
-    width: 30%;
+    width: 40%;
     outline: none;
     padding: 10px 20px;
-    border: 1px solid rgb(65, 64, 63);
+    border: 1px solid #f2f2f2;
     background: transparent;
+    font-family: sf pro text regular;
     font-size: 0.9rem;
     margin-right: 10px;
     border-radius: 3px;
     margin-bottom: 10px;
+    
 }
 .input-group{
     margin: 1px;
@@ -44,19 +52,20 @@ input {
 .input-box i{
     margin: 2px;
     padding: 10px;
-    color:rgb(65, 64, 63);
+    color:#bdbaba;
     min-width: 50px;
     position: relative;
     right: 60px;
-    float: centre;
 }
 button{
-    width: 20%;
+    width: 30%;
     margin: 5px;
-    padding: 5px;
-    background-color: rgb(19, 17, 16);
-    color:snow;
-    border-radius: 3px;
+    padding: 10px;
+    background-color: #43caae;
+    color:#ffffff;
+    border-radius: 25px;
+    border: 0;
+    font-family: sf pro text regular;
 }
 button:hover{
     background-color:rgb(236, 226, 217);
@@ -66,20 +75,38 @@ button:hover{
     width: 10%;
     margin: 5px;
     padding: 5px;
-    background: rgb(236, 226, 217);
+    background: rgb(248, 248, 248);
     border-radius: 3px;
-    color:rgb(19, 17, 16);
+    color:#565656;
+    border: 1px solid #e0e0e0;
+    font-family: sf pro text regular;
 }
 .input-box .dob{
     width: 10%;
+    position: relative;
+    right: 69px;
 }
 .input-box .radio{
     width: 10%;
+    font-family: sf pro text regular;
+    position: relative;
+    right: 60px;
+}
+.input-box .radio i{
+    font-family: sf pro text regular;
 }  
-    
 .input-box label{
     width: 5%;
+    font-family: sf pro text regular;
+    color: #bdbaba;
+    position: relative;
+    right: 75px;
 }
+
+
+
+
+
 
 
 
